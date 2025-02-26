@@ -11,15 +11,15 @@ AllocEffect 0x100000 0x80000
 BattleLevel 40
 Spawn "b_82"
 
+Program 0x9B
+AllocEnemy 3670016
+Party DEFAULT
+BattleLevel 32
+Spawn "b_83"
+
 Program 0x93
 AllocEnemy 3145728
 Party DEFAULT
 AllocEffect 0x100000 0x80000
 BattleLevel 99
 Spawn "b_80"
-
-Program 0x8F
-AllocEnemy 3670016
-Party DEFAULT
-BattleLevel 32
-Spawn "b_83"

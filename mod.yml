@@ -421,6 +421,20 @@ assets:
       source:
       - name: ard/ca10evt.yml
       type: AreaDataScript
+  - name: ard/us/ca12.ard
+    multi:
+    - name: ard/fr/ca12.ard
+    - name: ard/gr/ca12.ard
+    - name: ard/it/ca12.ard
+    - name: ard/sp/ca12.ard
+    - name: ard/ca12.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca12btl.yml
+      type: AreaDataScript
   - name: ard/us/ca14.ard
     multi:
     - name: ard/fr/ca14.ard
@@ -914,6 +928,25 @@ assets:
       name: evt
       source:
       - name: ard/hb20evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb22.ard
+    multi:
+    - name: ard/fr/hb22.ard
+    - name: ard/gr/hb22.ard
+    - name: ard/it/hb22.ard
+    - name: ard/sp/hb22.ard
+    - name: ard/hb22.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb22btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb22evt.yml
       type: AreaDataScript
   - name: ard/us/hb32.ard
     multi:
