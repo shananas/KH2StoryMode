@@ -15,35 +15,8 @@ Party DEFAULT
 Unk1d 3
 Spawn "b_44"
 
-Program 0xB6
-Party NO_FRIEND
-Mission 0x128 "TT04_MS00"
-Unk1d 1
-Spawn "b_50"
-Spawn "b_60"
-
-Program 0xB7
-Party NO_FRIEND
-Mission 0x129 "TT04_MS01"
-Unk1d 1
-Spawn "b_52"
-Spawn "b_60"
-
-Program 0xB8
-Party NO_FRIEND
-Mission 0x12A "TT04_MS02"
-Unk1d 1
-Spawn "b_51"
-Spawn "b_60"
-
 Program 0x4F
 Progress 0x8db
 Party NO_FRIEND
 Unk1d 3
 Spawn "b_43"
-
-Program 0xB5
-Progress 0x8db
-Party NO_FRIEND
-Unk1d 3
-Spawn "b_45"

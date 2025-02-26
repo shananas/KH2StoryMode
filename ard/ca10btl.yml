@@ -12,6 +12,8 @@ AreaSettings 0 -1
  SetJump Type 1 World CA Area 5 Entrance 0 LocalSet 0 FadeType 16385
  SetPartyMenu 0
 
+Mission 0xDE "CA10_MEDAL"
+
 Program 0x3C
 Progress 0x405a
 Unk06 0
