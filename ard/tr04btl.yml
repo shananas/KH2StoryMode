@@ -1,0 +1,9 @@
+Program 0x37
+Party W_FRIEND
+MapScript 11
+Spawn "b_40"
+
+Program 0x38
+Capacity 50
+Party W_FRIEND
+Spawn "b_60"

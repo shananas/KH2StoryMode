@@ -1,0 +1,53 @@
+Program 0x3D
+Bgm 84 84
+AreaSettings 0 -1
+ SetProgressFlag 0x1C21
+ SetJump Type 1 World AL Area 6 Entrance 0 LocalSet 0 FadeType 1
+ SetPartyMenu 0
+
+Program 0x11
+Bgm 128 128
+Layout "file/%s/al_ca.2ld"
+AreaSettings 7 0
+ SetProgressFlag 0x1C4A
+ SetMember 2
+ SetEvent "256" Type 8
+ SetJump Type 2 World AL Area 0 Entrance 0 LocalSet 100 FadeType 1
+ SetPartyMenu 0
+
+AreaSettings 7 1
+ SetProgressFlag 0x1C4A
+ SetMember 2
+ SetEvent "256" Type 8
+ SetJump Type 2 World AL Area 0 Entrance 0 LocalSet 101 FadeType 1
+ SetPartyMenu 0
+
+AreaSettings 0 2
+ SetProgressFlag 0x1C4A
+ SetMember 2
+ SetEvent "256" Type 8
+ SetJump Type 2 World AL Area 0 Entrance 0 LocalSet 102 FadeType 1
+ SetPartyMenu 0
+
+AreaSettings 1 -1
+ SetProgressFlag 0x1C4F
+ SetMember 2
+ SetPartyMenu 0
+
+Spawn "e_54"
+
+Program 0x56
+Bgm 128 128
+AreaSettings 0 -1
+ SetProgressFlag 0x1C04
+ SetEvent "252" Type 8
+ SetJump Type 1 World AL Area 14 Entrance 51 LocalSet 0 FadeType 1
+ SetPartyMenu 0
+
+Program 0x57
+Bgm 128 128
+AreaSettings 0 -1
+ SetProgressFlag 0x1C0D
+ SetEvent "255" Type 8
+ SetJump Type 1 World AL Area 14 Entrance 54 LocalSet 0 FadeType 1
+ SetPartyMenu 0

@@ -1,0 +1,8 @@
+Program 0x37
+Party DEFAULT
+Spawn "b_40"
+
+Program 0x72
+Party DEFAULT
+BattleLevel 99
+Spawn "b_80"

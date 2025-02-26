@@ -1,0 +1,13 @@
+Program 0x38
+Progress 0x4843
+AllocEnemy 2516582
+Party DEFAULT
+Spawn "b_40"
+
+Program 0x66
+Progress 0x484a
+AllocEnemy 2516582
+Party DEFAULT
+BattleLevel 99
+Unk1d 1
+Spawn "b_80"

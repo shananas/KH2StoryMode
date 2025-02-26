@@ -1,0 +1,6 @@
+Program 0x48
+Party NO_FRIEND
+Layout "minigame/eh_22.bar"
+Unk1d 4
+Spawn "b_40"
+Spawn "b_41"

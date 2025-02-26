@@ -1,0 +1,12 @@
+Program 0x46
+Capacity 35
+Party W_FRIEND_FIX
+Spawn "b_42"
+
+Program 0x44
+Capacity 40
+Party W_FRIEND_FIX
+Spawn "b_40"
+Spawn "b_4a"
+Spawn "b_4p"
+Spawn "b_4s"

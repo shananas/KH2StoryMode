@@ -1,0 +1,5 @@
+Program 0x4B
+Bgm 145 145
+AreaSettings 0 -1
+ SetJump Type 2 World MU Area 0 Entrance 0 LocalSet 105 FadeType 1
+ SetPartyMenu 0

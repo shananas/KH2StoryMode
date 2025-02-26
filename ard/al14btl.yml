@@ -1,0 +1,18 @@
+Program 0x3D
+Capacity 81
+Party W_FRIEND
+Layout "minigame/al_14.bar"
+Unk1d 4
+Spawn "b_70"
+Spawn "b_98"
+Spawn "b_97"
+
+Program 0x56
+Capacity 52
+Party W_FRIEND
+Spawn "b_61"
+
+Program 0x57
+Capacity 50
+Party W_FRIEND
+Spawn "b_64"

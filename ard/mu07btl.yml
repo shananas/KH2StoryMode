@@ -1,0 +1,12 @@
+Program 0x4C
+Progress 0x2018
+Capacity 65
+Party NO_FRIEND
+Spawn "b_60"
+Spawn "b_61"
+
+Program 0x49
+Capacity 65
+Party NO_FRIEND
+Spawn "b_40"
+Spawn "b_41"

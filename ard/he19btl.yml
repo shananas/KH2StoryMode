@@ -1,0 +1,8 @@
+Program 0xC9
+Party W_FRIEND
+Spawn "b_62"
+
+Program 0xCA
+AllocEnemy 2097152
+Party W_FRIEND
+Spawn "b_63"

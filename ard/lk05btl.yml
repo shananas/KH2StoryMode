@@ -1,0 +1,9 @@
+Program 0x38
+Party DEFAULT
+Spawn "b_40"
+
+Program 0x39
+Party W_FRIEND_FIX
+Spawn "b_60"
+Spawn "b_61"
+Spawn "b_70"

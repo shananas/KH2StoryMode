@@ -1,0 +1,10 @@
+Program 0x70
+Progress 0x1836
+Capacity 82
+Party DEFAULT
+Unk1d 3
+Spawn "b_40"
+
+Program 0x7E
+Party DEFAULT
+Spawn "b_60"

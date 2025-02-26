@@ -1,0 +1,28 @@
+Program 0x55
+Progress 0x8db
+Party NO_FRIEND
+Spawn "b_41"
+Spawn "b_10"
+
+Program 0x56
+Progress 0x8db
+Party NO_FRIEND
+Spawn "b_42"
+
+Program 0x57
+Progress 0x8db
+Party NO_FRIEND
+Spawn "b_43"
+
+Program 0x58
+Progress 0x8db
+Party NO_FRIEND
+Spawn "b_44"
+Spawn "b_10"
+
+Program 0x54
+Progress 0x8db
+Party NO_FRIEND
+Spawn "b_40"
+Spawn "b_10"
+Spawn "b_11"

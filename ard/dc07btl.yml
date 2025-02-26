@@ -1,0 +1,11 @@
+Program 0x49
+Party DEFAULT
+BattleLevel 99
+Unk1d 1
+Spawn "b_80"
+
+Program 0x43
+Party DEFAULT
+BattleLevel 99
+Unk1d 1
+Spawn "b_80"

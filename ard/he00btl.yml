@@ -1,0 +1,14 @@
+Program 0x8C
+Progress 0x183a
+Party NO_FRIEND
+Unk1d 1
+Spawn "b_4a"
+Spawn "b_4b"
+
+Program 0x8D
+Progress 0x183a
+Party NO_FRIEND
+Unk1d 1
+Spawn "b_4a"
+Spawn "b_4d"
+Spawn "b_4e"

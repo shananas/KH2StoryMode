@@ -1,0 +1,20 @@
+Program 0x3E
+Capacity 100
+Party NO_FRIEND
+Spawn "b_40"
+
+Program 0x3F
+Capacity 90
+Party NO_FRIEND
+Spawn "b_41"
+
+Program 0x40
+Capacity 100
+Party NO_FRIEND
+Spawn "b_42"
+
+Program 0x41
+Capacity 110
+AllocEnemy 2306867
+Party NO_FRIEND
+Spawn "b_43"

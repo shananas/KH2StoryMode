@@ -1,0 +1,2076 @@
+title: Theatre Mode
+originalAuthor: Shananas
+game: kh2
+description: Story Mode (you wont recieve anything thats gotten from a Get Bonus)
+assets:
+  - name: ard/us/al00.ard
+    multi:
+    - name: ard/fr/al00.ard
+    - name: ard/gr/al00.ard
+    - name: ard/it/al00.ard
+    - name: ard/sp/al00.ard
+    - name: ard/al00.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al00btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al00evt.yml
+      type: AreaDataScript
+  - name: ard/us/al03.ard
+    multi:
+    - name: ard/fr/al03.ard
+    - name: ard/gr/al03.ard
+    - name: ard/it/al03.ard
+    - name: ard/sp/al03.ard
+    - name: ard/al03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al03evt.yml
+      type: AreaDataScript
+  - name: ard/us/al05.ard
+    multi:
+    - name: ard/fr/al05.ard
+    - name: ard/gr/al05.ard
+    - name: ard/it/al05.ard
+    - name: ard/sp/al05.ard
+    - name: ard/al05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al05evt.yml
+      type: AreaDataScript
+  - name: ard/us/al09.ard
+    multi:
+    - name: ard/fr/al09.ard
+    - name: ard/gr/al09.ard
+    - name: ard/it/al09.ard
+    - name: ard/sp/al09.ard
+    - name: ard/al09.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al09btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al09evt.yml
+      type: AreaDataScript
+  - name: ard/us/al10.ard
+    multi:
+    - name: ard/fr/al10.ard
+    - name: ard/gr/al10.ard
+    - name: ard/it/al10.ard
+    - name: ard/sp/al10.ard
+    - name: ard/al10.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al10btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al10evt.yml
+      type: AreaDataScript
+  - name: ard/us/al13.ard
+    multi:
+    - name: ard/fr/al13.ard
+    - name: ard/gr/al13.ard
+    - name: ard/it/al13.ard
+    - name: ard/sp/al13.ard
+    - name: ard/al13.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al13btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al13evt.yml
+      type: AreaDataScript
+  - name: ard/us/al14.ard
+    multi:
+    - name: ard/fr/al14.ard
+    - name: ard/gr/al14.ard
+    - name: ard/it/al14.ard
+    - name: ard/sp/al14.ard
+    - name: ard/al14.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/al14btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/al14evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb00.ard
+    multi:
+    - name: ard/fr/bb00.ard
+    - name: ard/gr/bb00.ard
+    - name: ard/it/bb00.ard
+    - name: ard/sp/bb00.ard
+    - name: ard/bb00.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb00btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb00evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb01.ard
+    multi:
+    - name: ard/fr/bb01.ard
+    - name: ard/gr/bb01.ard
+    - name: ard/it/bb01.ard
+    - name: ard/sp/bb01.ard
+    - name: ard/bb01.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb01btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb01evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb03.ard
+    multi:
+    - name: ard/fr/bb03.ard
+    - name: ard/gr/bb03.ard
+    - name: ard/it/bb03.ard
+    - name: ard/sp/bb03.ard
+    - name: ard/bb03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb03evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb04.ard
+    multi:
+    - name: ard/fr/bb04.ard
+    - name: ard/gr/bb04.ard
+    - name: ard/it/bb04.ard
+    - name: ard/sp/bb04.ard
+    - name: ard/bb04.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb04btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb04evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb05.ard
+    multi:
+    - name: ard/fr/bb05.ard
+    - name: ard/gr/bb05.ard
+    - name: ard/it/bb05.ard
+    - name: ard/sp/bb05.ard
+    - name: ard/bb05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb05evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb08.ard
+    multi:
+    - name: ard/fr/bb08.ard
+    - name: ard/gr/bb08.ard
+    - name: ard/it/bb08.ard
+    - name: ard/sp/bb08.ard
+    - name: ard/bb08.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb08btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb08evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb11.ard
+    multi:
+    - name: ard/fr/bb11.ard
+    - name: ard/gr/bb11.ard
+    - name: ard/it/bb11.ard
+    - name: ard/sp/bb11.ard
+    - name: ard/bb11.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb11btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb11evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb12.ard
+    multi:
+    - name: ard/fr/bb12.ard
+    - name: ard/gr/bb12.ard
+    - name: ard/it/bb12.ard
+    - name: ard/sp/bb12.ard
+    - name: ard/bb12.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb12btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb12evt.yml
+      type: AreaDataScript
+  - name: ard/us/bb15.ard
+    multi:
+    - name: ard/fr/bb15.ard
+    - name: ard/gr/bb15.ard
+    - name: ard/it/bb15.ard
+    - name: ard/sp/bb15.ard
+    - name: ard/bb15.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/bb15btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/bb15evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca01.ard
+    multi:
+    - name: ard/fr/ca01.ard
+    - name: ard/gr/ca01.ard
+    - name: ard/it/ca01.ard
+    - name: ard/sp/ca01.ard
+    - name: ard/ca01.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca01btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca01evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca02.ard
+    multi:
+    - name: ard/fr/ca02.ard
+    - name: ard/gr/ca02.ard
+    - name: ard/it/ca02.ard
+    - name: ard/sp/ca02.ard
+    - name: ard/ca02.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca02btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca02evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca03.ard
+    multi:
+    - name: ard/fr/ca03.ard
+    - name: ard/gr/ca03.ard
+    - name: ard/it/ca03.ard
+    - name: ard/sp/ca03.ard
+    - name: ard/ca03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca03evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca07.ard
+    multi:
+    - name: ard/fr/ca07.ard
+    - name: ard/gr/ca07.ard
+    - name: ard/it/ca07.ard
+    - name: ard/sp/ca07.ard
+    - name: ard/ca07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca07evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca09.ard
+    multi:
+    - name: ard/fr/ca09.ard
+    - name: ard/gr/ca09.ard
+    - name: ard/it/ca09.ard
+    - name: ard/sp/ca09.ard
+    - name: ard/ca09.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca09btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca09evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca10.ard
+    multi:
+    - name: ard/fr/ca10.ard
+    - name: ard/gr/ca10.ard
+    - name: ard/it/ca10.ard
+    - name: ard/sp/ca10.ard
+    - name: ard/ca10.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca10btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca10evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca14.ard
+    multi:
+    - name: ard/fr/ca14.ard
+    - name: ard/gr/ca14.ard
+    - name: ard/it/ca14.ard
+    - name: ard/sp/ca14.ard
+    - name: ard/ca14.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca14btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca14evt.yml
+      type: AreaDataScript
+  - name: ard/us/ca18.ard
+    multi:
+    - name: ard/fr/ca18.ard
+    - name: ard/gr/ca18.ard
+    - name: ard/it/ca18.ard
+    - name: ard/sp/ca18.ard
+    - name: ard/ca18.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/ca18btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/ca18evt.yml
+      type: AreaDataScript
+  - name: ard/us/dc00.ard
+    multi:
+    - name: ard/fr/dc00.ard
+    - name: ard/gr/dc00.ard
+    - name: ard/it/dc00.ard
+    - name: ard/sp/dc00.ard
+    - name: ard/dc00.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/dc00btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/dc00evt.yml
+      type: AreaDataScript
+  - name: ard/us/dc02.ard
+    multi:
+    - name: ard/fr/dc02.ard
+    - name: ard/gr/dc02.ard
+    - name: ard/it/dc02.ard
+    - name: ard/sp/dc02.ard
+    - name: ard/dc02.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/dc02btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/dc02evt.yml
+      type: AreaDataScript
+  - name: ard/us/dc07.ard
+    multi:
+    - name: ard/fr/dc07.ard
+    - name: ard/gr/dc07.ard
+    - name: ard/it/dc07.ard
+    - name: ard/sp/dc07.ard
+    - name: ard/dc07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/dc07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/dc07evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh10.ard
+    multi:
+    - name: ard/fr/eh10.ard
+    - name: ard/gr/eh10.ard
+    - name: ard/it/eh10.ard
+    - name: ard/sp/eh10.ard
+    - name: ard/eh10.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh10btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh10evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh14.ard
+    multi:
+    - name: ard/fr/eh14.ard
+    - name: ard/gr/eh14.ard
+    - name: ard/it/eh14.ard
+    - name: ard/sp/eh14.ard
+    - name: ard/eh14.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh14btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh14evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh15.ard
+    multi:
+    - name: ard/fr/eh15.ard
+    - name: ard/gr/eh15.ard
+    - name: ard/it/eh15.ard
+    - name: ard/sp/eh15.ard
+    - name: ard/eh15.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh15btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh15evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh19.ard
+    multi:
+    - name: ard/fr/eh19.ard
+    - name: ard/gr/eh19.ard
+    - name: ard/it/eh19.ard
+    - name: ard/sp/eh19.ard
+    - name: ard/eh19.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh19btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh19evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh20.ard
+    multi:
+    - name: ard/fr/eh20.ard
+    - name: ard/gr/eh20.ard
+    - name: ard/it/eh20.ard
+    - name: ard/sp/eh20.ard
+    - name: ard/eh20.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh20btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh20evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh21.ard
+    multi:
+    - name: ard/fr/eh21.ard
+    - name: ard/gr/eh21.ard
+    - name: ard/it/eh21.ard
+    - name: ard/sp/eh21.ard
+    - name: ard/eh21.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh21btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh21evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh22.ard
+    multi:
+    - name: ard/fr/eh22.ard
+    - name: ard/gr/eh22.ard
+    - name: ard/it/eh22.ard
+    - name: ard/sp/eh22.ard
+    - name: ard/eh22.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh22btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh22evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh23.ard
+    multi:
+    - name: ard/fr/eh23.ard
+    - name: ard/gr/eh23.ard
+    - name: ard/it/eh23.ard
+    - name: ard/sp/eh23.ard
+    - name: ard/eh23.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh23btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh23evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh24.ard
+    multi:
+    - name: ard/fr/eh24.ard
+    - name: ard/gr/eh24.ard
+    - name: ard/it/eh24.ard
+    - name: ard/sp/eh24.ard
+    - name: ard/eh24.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh24btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh24evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh25.ard
+    multi:
+    - name: ard/fr/eh25.ard
+    - name: ard/gr/eh25.ard
+    - name: ard/it/eh25.ard
+    - name: ard/sp/eh25.ard
+    - name: ard/eh25.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh25btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh25evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh26.ard
+    multi:
+    - name: ard/fr/eh26.ard
+    - name: ard/gr/eh26.ard
+    - name: ard/it/eh26.ard
+    - name: ard/sp/eh26.ard
+    - name: ard/eh26.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh26btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh26evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh27.ard
+    multi:
+    - name: ard/fr/eh27.ard
+    - name: ard/gr/eh27.ard
+    - name: ard/it/eh27.ard
+    - name: ard/sp/eh27.ard
+    - name: ard/eh27.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh27btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh27evt.yml
+      type: AreaDataScript
+  - name: ard/us/eh28.ard
+    multi:
+    - name: ard/fr/eh28.ard
+    - name: ard/gr/eh28.ard
+    - name: ard/it/eh28.ard
+    - name: ard/sp/eh28.ard
+    - name: ard/eh28.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/eh28btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/eh28evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb01.ard
+    multi:
+    - name: ard/fr/hb01.ard
+    - name: ard/gr/hb01.ard
+    - name: ard/it/hb01.ard
+    - name: ard/sp/hb01.ard
+    - name: ard/hb01.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb01btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb01evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb04.ard
+    multi:
+    - name: ard/fr/hb04.ard
+    - name: ard/gr/hb04.ard
+    - name: ard/it/hb04.ard
+    - name: ard/sp/hb04.ard
+    - name: ard/hb04.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb04btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb04evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb08.ard
+    multi:
+    - name: ard/fr/hb08.ard
+    - name: ard/gr/hb08.ard
+    - name: ard/it/hb08.ard
+    - name: ard/sp/hb08.ard
+    - name: ard/hb08.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb08btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb08evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb09.ard
+    multi:
+    - name: ard/fr/hb09.ard
+    - name: ard/gr/hb09.ard
+    - name: ard/it/hb09.ard
+    - name: ard/sp/hb09.ard
+    - name: ard/hb09.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb09btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb09evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb16.ard
+    multi:
+    - name: ard/fr/hb16.ard
+    - name: ard/gr/hb16.ard
+    - name: ard/it/hb16.ard
+    - name: ard/sp/hb16.ard
+    - name: ard/hb16.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb16btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb16evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb17.ard
+    multi:
+    - name: ard/fr/hb17.ard
+    - name: ard/gr/hb17.ard
+    - name: ard/it/hb17.ard
+    - name: ard/sp/hb17.ard
+    - name: ard/hb17.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb17btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb17evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb18.ard
+    multi:
+    - name: ard/fr/hb18.ard
+    - name: ard/gr/hb18.ard
+    - name: ard/it/hb18.ard
+    - name: ard/sp/hb18.ard
+    - name: ard/hb18.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb18btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb18evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb20.ard
+    multi:
+    - name: ard/fr/hb20.ard
+    - name: ard/gr/hb20.ard
+    - name: ard/it/hb20.ard
+    - name: ard/sp/hb20.ard
+    - name: ard/hb20.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb20btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb20evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb32.ard
+    multi:
+    - name: ard/fr/hb32.ard
+    - name: ard/gr/hb32.ard
+    - name: ard/it/hb32.ard
+    - name: ard/sp/hb32.ard
+    - name: ard/hb32.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb32btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb32evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb33.ard
+    multi:
+    - name: ard/fr/hb33.ard
+    - name: ard/gr/hb33.ard
+    - name: ard/it/hb33.ard
+    - name: ard/sp/hb33.ard
+    - name: ard/hb33.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb33btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb33evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb34.ard
+    multi:
+    - name: ard/fr/hb34.ard
+    - name: ard/gr/hb34.ard
+    - name: ard/it/hb34.ard
+    - name: ard/sp/hb34.ard
+    - name: ard/hb34.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb34btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb34evt.yml
+      type: AreaDataScript
+  - name: ard/us/hb38.ard
+    multi:
+    - name: ard/fr/hb38.ard
+    - name: ard/gr/hb38.ard
+    - name: ard/it/hb38.ard
+    - name: ard/sp/hb38.ard
+    - name: ard/hb38.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/hb38btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/hb38evt.yml
+      type: AreaDataScript
+  - name: ard/us/he00.ard
+    multi:
+    - name: ard/fr/he00.ard
+    - name: ard/gr/he00.ard
+    - name: ard/it/he00.ard
+    - name: ard/sp/he00.ard
+    - name: ard/he00.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he00btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he00evt.yml
+      type: AreaDataScript
+  - name: ard/us/he05.ard
+    multi:
+    - name: ard/fr/he05.ard
+    - name: ard/gr/he05.ard
+    - name: ard/it/he05.ard
+    - name: ard/sp/he05.ard
+    - name: ard/he05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he05evt.yml
+      type: AreaDataScript
+  - name: ard/us/he06.ard
+    multi:
+    - name: ard/fr/he06.ard
+    - name: ard/gr/he06.ard
+    - name: ard/it/he06.ard
+    - name: ard/sp/he06.ard
+    - name: ard/he06.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he06btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he06evt.yml
+      type: AreaDataScript
+  - name: ard/us/he07.ard
+    multi:
+    - name: ard/fr/he07.ard
+    - name: ard/gr/he07.ard
+    - name: ard/it/he07.ard
+    - name: ard/sp/he07.ard
+    - name: ard/he07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he07evt.yml
+      type: AreaDataScript
+  - name: ard/us/he08.ard
+    multi:
+    - name: ard/fr/he08.ard
+    - name: ard/gr/he08.ard
+    - name: ard/it/he08.ard
+    - name: ard/sp/he08.ard
+    - name: ard/he08.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he08btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he08evt.yml
+      type: AreaDataScript
+  - name: ard/us/he17.ard
+    multi:
+    - name: ard/fr/he17.ard
+    - name: ard/gr/he17.ard
+    - name: ard/it/he17.ard
+    - name: ard/sp/he17.ard
+    - name: ard/he17.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he17btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he17evt.yml
+      type: AreaDataScript
+  - name: ard/us/he18.ard
+    multi:
+    - name: ard/fr/he18.ard
+    - name: ard/gr/he18.ard
+    - name: ard/it/he18.ard
+    - name: ard/sp/he18.ard
+    - name: ard/he18.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he18btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he18evt.yml
+      type: AreaDataScript
+  - name: ard/us/he19.ard
+    multi:
+    - name: ard/fr/he19.ard
+    - name: ard/gr/he19.ard
+    - name: ard/it/he19.ard
+    - name: ard/sp/he19.ard
+    - name: ard/he19.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/he19btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/he19evt.yml
+      type: AreaDataScript
+  - name: ard/us/lk02.ard
+    multi:
+    - name: ard/fr/lk02.ard
+    - name: ard/gr/lk02.ard
+    - name: ard/it/lk02.ard
+    - name: ard/sp/lk02.ard
+    - name: ard/lk02.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/lk02btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/lk02evt.yml
+      type: AreaDataScript
+  - name: ard/us/lk05.ard
+    multi:
+    - name: ard/fr/lk05.ard
+    - name: ard/gr/lk05.ard
+    - name: ard/it/lk05.ard
+    - name: ard/sp/lk05.ard
+    - name: ard/lk05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/lk05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/lk05evt.yml
+      type: AreaDataScript
+  - name: ard/us/lk14.ard
+    multi:
+    - name: ard/fr/lk14.ard
+    - name: ard/gr/lk14.ard
+    - name: ard/it/lk14.ard
+    - name: ard/sp/lk14.ard
+    - name: ard/lk14.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/lk14btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/lk14evt.yml
+      type: AreaDataScript
+  - name: ard/us/lk15.ard
+    multi:
+    - name: ard/fr/lk15.ard
+    - name: ard/gr/lk15.ard
+    - name: ard/it/lk15.ard
+    - name: ard/sp/lk15.ard
+    - name: ard/lk15.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/lk15btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/lk15evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu01.ard
+    multi:
+    - name: ard/fr/mu01.ard
+    - name: ard/gr/mu01.ard
+    - name: ard/it/mu01.ard
+    - name: ard/sp/mu01.ard
+    - name: ard/mu01.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu01btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu01evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu02.ard
+    multi:
+    - name: ard/fr/mu02.ard
+    - name: ard/gr/mu02.ard
+    - name: ard/it/mu02.ard
+    - name: ard/sp/mu02.ard
+    - name: ard/mu02.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu02btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu02evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu03.ard
+    multi:
+    - name: ard/fr/mu03.ard
+    - name: ard/gr/mu03.ard
+    - name: ard/it/mu03.ard
+    - name: ard/sp/mu03.ard
+    - name: ard/mu03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu03evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu05.ard
+    multi:
+    - name: ard/fr/mu05.ard
+    - name: ard/gr/mu05.ard
+    - name: ard/it/mu05.ard
+    - name: ard/sp/mu05.ard
+    - name: ard/mu05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu05evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu07.ard
+    multi:
+    - name: ard/fr/mu07.ard
+    - name: ard/gr/mu07.ard
+    - name: ard/it/mu07.ard
+    - name: ard/sp/mu07.ard
+    - name: ard/mu07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu07evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu08.ard
+    multi:
+    - name: ard/fr/mu08.ard
+    - name: ard/gr/mu08.ard
+    - name: ard/it/mu08.ard
+    - name: ard/sp/mu08.ard
+    - name: ard/mu08.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu08btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu08evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu09.ard
+    multi:
+    - name: ard/fr/mu09.ard
+    - name: ard/gr/mu09.ard
+    - name: ard/it/mu09.ard
+    - name: ard/sp/mu09.ard
+    - name: ard/mu09.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu09btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu09evt.yml
+      type: AreaDataScript
+  - name: ard/us/mu10.ard
+    multi:
+    - name: ard/fr/mu10.ard
+    - name: ard/gr/mu10.ard
+    - name: ard/it/mu10.ard
+    - name: ard/sp/mu10.ard
+    - name: ard/mu10.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/mu10btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/mu10evt.yml
+      type: AreaDataScript
+  - name: ard/us/nm00.ard
+    multi:
+    - name: ard/fr/nm00.ard
+    - name: ard/gr/nm00.ard
+    - name: ard/it/nm00.ard
+    - name: ard/sp/nm00.ard
+    - name: ard/nm00.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/nm00btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/nm00evt.yml
+      type: AreaDataScript
+  - name: ard/us/nm03.ard
+    multi:
+    - name: ard/fr/nm03.ard
+    - name: ard/gr/nm03.ard
+    - name: ard/it/nm03.ard
+    - name: ard/sp/nm03.ard
+    - name: ard/nm03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/nm03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/nm03evt.yml
+      type: AreaDataScript
+  - name: ard/us/nm06.ard
+    multi:
+    - name: ard/fr/nm06.ard
+    - name: ard/gr/nm06.ard
+    - name: ard/it/nm06.ard
+    - name: ard/sp/nm06.ard
+    - name: ard/nm06.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/nm06btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/nm06evt.yml
+      type: AreaDataScript
+  - name: ard/us/nm07.ard
+    multi:
+    - name: ard/fr/nm07.ard
+    - name: ard/gr/nm07.ard
+    - name: ard/it/nm07.ard
+    - name: ard/sp/nm07.ard
+    - name: ard/nm07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/nm07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/nm07evt.yml
+      type: AreaDataScript
+  - name: ard/us/nm09.ard
+    multi:
+    - name: ard/fr/nm09.ard
+    - name: ard/gr/nm09.ard
+    - name: ard/it/nm09.ard
+    - name: ard/sp/nm09.ard
+    - name: ard/nm09.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/nm09btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/nm09evt.yml
+      type: AreaDataScript
+  - name: ard/us/nm10.ard
+    multi:
+    - name: ard/fr/nm10.ard
+    - name: ard/gr/nm10.ard
+    - name: ard/it/nm10.ard
+    - name: ard/sp/nm10.ard
+    - name: ard/nm10.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/nm10btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/nm10evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr00.ard
+    multi:
+    - name: ard/fr/tr00.ard
+    - name: ard/gr/tr00.ard
+    - name: ard/it/tr00.ard
+    - name: ard/sp/tr00.ard
+    - name: ard/tr00.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr00btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr00evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr02.ard
+    multi:
+    - name: ard/fr/tr02.ard
+    - name: ard/gr/tr02.ard
+    - name: ard/it/tr02.ard
+    - name: ard/sp/tr02.ard
+    - name: ard/tr02.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr02btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr02evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr03.ard
+    multi:
+    - name: ard/fr/tr03.ard
+    - name: ard/gr/tr03.ard
+    - name: ard/it/tr03.ard
+    - name: ard/sp/tr03.ard
+    - name: ard/tr03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr03evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr04.ard
+    multi:
+    - name: ard/fr/tr04.ard
+    - name: ard/gr/tr04.ard
+    - name: ard/it/tr04.ard
+    - name: ard/sp/tr04.ard
+    - name: ard/tr04.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr04btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr04evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr04.ard
+    multi:
+    - name: ard/fr/tr04.ard
+    - name: ard/gr/tr04.ard
+    - name: ard/it/tr04.ard
+    - name: ard/sp/tr04.ard
+    - name: ard/tr04.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr04btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr04evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr07.ard
+    multi:
+    - name: ard/fr/tr07.ard
+    - name: ard/gr/tr07.ard
+    - name: ard/it/tr07.ard
+    - name: ard/sp/tr07.ard
+    - name: ard/tr07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr07evt.yml
+      type: AreaDataScript
+  - name: ard/us/tr09.ard
+    multi:
+    - name: ard/fr/tr09.ard
+    - name: ard/gr/tr09.ard
+    - name: ard/it/tr09.ard
+    - name: ard/sp/tr09.ard
+    - name: ard/tr09.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tr09btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tr09evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt03.ard
+    multi:
+    - name: ard/fr/tt03.ard
+    - name: ard/gr/tt03.ard
+    - name: ard/it/tt03.ard
+    - name: ard/sp/tt03.ard
+    - name: ard/tt03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt03evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt04.ard
+    multi:
+    - name: ard/fr/tt04.ard
+    - name: ard/gr/tt04.ard
+    - name: ard/it/tt04.ard
+    - name: ard/sp/tt04.ard
+    - name: ard/tt04.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt04btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt04evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt05.ard
+    multi:
+    - name: ard/fr/tt05.ard
+    - name: ard/gr/tt05.ard
+    - name: ard/it/tt05.ard
+    - name: ard/sp/tt05.ard
+    - name: ard/tt05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt05evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt08.ard
+    multi:
+    - name: ard/fr/tt08.ard
+    - name: ard/gr/tt08.ard
+    - name: ard/it/tt08.ard
+    - name: ard/sp/tt08.ard
+    - name: ard/tt08.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt08btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt08evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt10.ard
+    multi:
+    - name: ard/fr/tt10.ard
+    - name: ard/gr/tt10.ard
+    - name: ard/it/tt10.ard
+    - name: ard/sp/tt10.ard
+    - name: ard/tt10.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt10btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt10evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt12.ard
+    multi:
+    - name: ard/fr/tt12.ard
+    - name: ard/gr/tt12.ard
+    - name: ard/it/tt12.ard
+    - name: ard/sp/tt12.ard
+    - name: ard/tt12.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt12btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt12evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt14.ard
+    multi:
+    - name: ard/fr/tt14.ard
+    - name: ard/gr/tt14.ard
+    - name: ard/it/tt14.ard
+    - name: ard/sp/tt14.ard
+    - name: ard/tt14.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt14btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt14evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt19.ard
+    multi:
+    - name: ard/fr/tt19.ard
+    - name: ard/gr/tt19.ard
+    - name: ard/it/tt19.ard
+    - name: ard/sp/tt19.ard
+    - name: ard/tt19.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt19btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt19evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt20.ard
+    multi:
+    - name: ard/fr/tt20.ard
+    - name: ard/gr/tt20.ard
+    - name: ard/it/tt20.ard
+    - name: ard/sp/tt20.ard
+    - name: ard/tt20.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt20btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt20evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt25.ard
+    multi:
+    - name: ard/fr/tt25.ard
+    - name: ard/gr/tt25.ard
+    - name: ard/it/tt25.ard
+    - name: ard/sp/tt25.ard
+    - name: ard/tt25.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt25btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt25evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt29.ard
+    multi:
+    - name: ard/fr/tt29.ard
+    - name: ard/gr/tt29.ard
+    - name: ard/it/tt29.ard
+    - name: ard/sp/tt29.ard
+    - name: ard/tt29.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt29btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt29evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt30.ard
+    multi:
+    - name: ard/fr/tt30.ard
+    - name: ard/gr/tt30.ard
+    - name: ard/it/tt30.ard
+    - name: ard/sp/tt30.ard
+    - name: ard/tt30.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt30btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt30evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt32.ard
+    multi:
+    - name: ard/fr/tt32.ard
+    - name: ard/gr/tt32.ard
+    - name: ard/it/tt32.ard
+    - name: ard/sp/tt32.ard
+    - name: ard/tt32.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt32btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt32evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt34.ard
+    multi:
+    - name: ard/fr/tt34.ard
+    - name: ard/gr/tt34.ard
+    - name: ard/it/tt34.ard
+    - name: ard/sp/tt34.ard
+    - name: ard/tt34.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt34btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt34evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt36.ard
+    multi:
+    - name: ard/fr/tt36.ard
+    - name: ard/gr/tt36.ard
+    - name: ard/it/tt36.ard
+    - name: ard/sp/tt36.ard
+    - name: ard/tt36.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt36btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt36evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt40.ard
+    multi:
+    - name: ard/fr/tt40.ard
+    - name: ard/gr/tt40.ard
+    - name: ard/it/tt40.ard
+    - name: ard/sp/tt40.ard
+    - name: ard/tt40.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt40btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt40evt.yml
+      type: AreaDataScript
+  - name: ard/us/tt41.ard
+    multi:
+    - name: ard/fr/tt41.ard
+    - name: ard/gr/tt41.ard
+    - name: ard/it/tt41.ard
+    - name: ard/sp/tt41.ard
+    - name: ard/tt41.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/tt41btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/tt41evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi01.ard
+    multi:
+    - name: ard/fr/wi01.ard
+    - name: ard/gr/wi01.ard
+    - name: ard/it/wi01.ard
+    - name: ard/sp/wi01.ard
+    - name: ard/wi01.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi01btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi01evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi02.ard
+    multi:
+    - name: ard/fr/wi02.ard
+    - name: ard/gr/wi02.ard
+    - name: ard/it/wi02.ard
+    - name: ard/sp/wi02.ard
+    - name: ard/wi02.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi02btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi02evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi03.ard
+    multi:
+    - name: ard/fr/wi03.ard
+    - name: ard/gr/wi03.ard
+    - name: ard/it/wi03.ard
+    - name: ard/sp/wi03.ard
+    - name: ard/wi03.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi03btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi03evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi04.ard
+    multi:
+    - name: ard/fr/wi04.ard
+    - name: ard/gr/wi04.ard
+    - name: ard/it/wi04.ard
+    - name: ard/sp/wi04.ard
+    - name: ard/wi04.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi04btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi04evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi05.ard
+    multi:
+    - name: ard/fr/wi05.ard
+    - name: ard/gr/wi05.ard
+    - name: ard/it/wi05.ard
+    - name: ard/sp/wi05.ard
+    - name: ard/wi05.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi05btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi05evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi06.ard
+    multi:
+    - name: ard/fr/wi06.ard
+    - name: ard/gr/wi06.ard
+    - name: ard/it/wi06.ard
+    - name: ard/sp/wi06.ard
+    - name: ard/wi06.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi06btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi06evt.yml
+      type: AreaDataScript
+  - name: ard/us/wi07.ard
+    multi:
+    - name: ard/fr/wi07.ard
+    - name: ard/gr/wi07.ard
+    - name: ard/it/wi07.ard
+    - name: ard/sp/wi07.ard
+    - name: ard/wi07.ard
+    method: binarc
+    source:
+    - method: areadatascript
+      name: btl
+      source:
+      - name: ard/wi07btl.yml
+      type: AreaDataScript
+    - method: areadatascript
+      name: evt
+      source:
+      - name: ard/wi07evt.yml
+      type: AreaDataScript

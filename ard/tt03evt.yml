@@ -1,0 +1,34 @@
+Program 0xB4
+Bgm 119 119
+AreaSettings 0 -1
+ SetUnk05 0x3
+ SetJump Type 2 World TT Area 0 Entrance 0 LocalSet 202 FadeType 1
+ SetPartyMenu 0
+
+AreaSettings 15 -1
+ SetUnk05 0x3
+ SetJump Type 2 World TT Area 0 Entrance 0 LocalSet 203 FadeType 1
+ SetPartyMenu 0
+
+Spawn "e44_"
+Spawn "f44_"
+
+Program 0x49
+Bgm 114 114
+AreaSettings 0 -1
+ SetProgressFlag 0x882
+ SetMember 0
+ SetUnk05 0x3
+ SetEvent "604" Type 8
+ SetJump Type 1 World TT Area 3 Entrance 52 LocalSet 0 FadeType 1
+ SetPartyMenu 0
+
+AreaSettings 15 -1
+ SetProgressFlag 0x882
+ SetMember 0
+ SetUnk05 0x3
+ SetEvent "604" Type 9
+ SetJump Type 1 World TT Area 3 Entrance 52 LocalSet 0 FadeType 1
+ SetPartyMenu 0
+
+Spawn "a60_"

@@ -1,0 +1,10 @@
+Program 0x33
+Capacity 37
+Party W_FRIEND
+Unk1d 3
+Spawn "b_40"
+
+Program 0x3C
+Progress 0x383a
+Party W_FRIEND
+Spawn "b_99"

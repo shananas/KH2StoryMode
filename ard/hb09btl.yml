@@ -1,0 +1,18 @@
+Program 0x3A
+Capacity 60
+Party DEFAULT
+Unk1d 3
+Spawn "b_41"
+Spawn "b_10"
+
+Program 0x33
+Party DEFAULT
+Unk1d 3
+Spawn "b_40"
+Spawn "b_10"
+
+Program 0x48
+Party DEFAULT
+Unk1d 3
+Spawn "b_42"
+Spawn "b_12"

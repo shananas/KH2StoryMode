@@ -1,0 +1,25 @@
+Program 0x33
+Progress 0x405e
+Unk06 0
+Party DEFAULT
+Unk1d 3
+Spawn "b_40"
+
+Program 0x35
+Progress 0x4061
+Unk06 0
+Party W_FRIEND
+Spawn "b_60"
+
+Program 0x34
+Progress 0x405e
+Unk06 0
+Party DEFAULT
+Unk1d 3
+Spawn "b_41"
+
+Program 0x36
+Progress 0x405c
+Unk06 0
+Party W_FRIEND
+Spawn "b_61"

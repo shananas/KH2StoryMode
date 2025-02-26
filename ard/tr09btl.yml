@@ -1,0 +1,9 @@
+Program 0x3A
+Party W_FRIEND
+MapScript 5
+Spawn "b_60"
+
+Program 0x3B
+Party W_FRIEND
+MapScript 5
+Spawn "b_61"

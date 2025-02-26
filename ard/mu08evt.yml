@@ -1,0 +1,26 @@
+Program 0x51
+Bgm 112 112
+AreaSettings 0 -1
+ SetProgressFlag 0x201B
+ SetUnk05 0x3
+ SetEvent "208" Type 8
+ SetJump Type 1 World MU Area 9 Entrance 0 LocalSet 0 FadeType 1
+ SetPartyMenu 0
+
+Program 0x4F
+Bgm 115 115
+AreaSettings 0 -1
+ SetProgressFlag 0x2022
+ SetEvent "215" Type 18
+ SetJump Type 1 World MU Area 11 Entrance 0 LocalSet 0 FadeType 1
+ SetPartyMenu 0
+
+Program 0x4A
+Bgm 112 112
+AreaSettings 0 -1
+ SetProgressFlag 0x2010
+ SetMember 2
+ SetUnk05 0x3
+ SetEvent "116" Type 8
+ SetJump Type 1 World MU Area 8 Entrance 50 LocalSet 0 FadeType 1
+ SetPartyMenu 0

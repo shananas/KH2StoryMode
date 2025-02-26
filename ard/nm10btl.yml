@@ -1,0 +1,9 @@
+Program 0x3E
+Progress 0x383a
+Party W_FRIEND
+Spawn "b_60"
+
+Program 0x3F
+Party W_FRIEND
+Unk1d 1
+Spawn "b_61"

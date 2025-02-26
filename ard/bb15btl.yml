@@ -1,0 +1,10 @@
+Program 0x61
+Party DEFAULT
+BattleLevel 99
+Spawn "b_80"
+
+Program 0x52
+Progress 0x1083
+Party W_FRIEND
+StatusFlag3
+Spawn "b_60"
