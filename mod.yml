@@ -961,12 +961,12 @@ assets:
       name: b_81
       source:
       - name: ard/hb24.ard/b_81.yml
-      type: AreaDataScript
+      type: AreaDataSpawn
     - method: spawnpoint
       name: b_82
       source:
       - name: ard/hb24.ard/b_82.yml
-      type: AreaDataScript
+      type: AreaDataSpawn
   - name: ard/us/hb25.ard
     multi:
     - name: ard/fr/hb25.ard
@@ -980,17 +980,17 @@ assets:
       name: b_81
       source:
       - name: ard/hb25.ard/b_81.yml
-      type: AreaDataScript
+      type: AreaDataSpawn
     - method: spawnpoint
       name: b_82
       source:
       - name: ard/hb25.ard/b_82.yml
-      type: AreaDataScript
+      type: AreaDataSpawn
     - method: spawnpoint
       name: b_83
       source:
       - name: ard/hb25.ard/b_83.yml
-      type: AreaDataScript
+      type: AreaDataSpawn
   - name: ard/us/hb32.ard
     multi:
     - name: ard/fr/hb32.ard
